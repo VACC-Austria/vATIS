@@ -2,7 +2,7 @@ name: Automatic Profile Serial Bump
 
 on:
   push:
-    branches: ["master"]
+    branches: ["main"]
     paths: ["vATIS Profile - LOVV.json"]
 
 jobs:
