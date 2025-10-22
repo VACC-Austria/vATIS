@@ -1824,7 +1824,7 @@
             },
             "VV": {
               "text": "VV {altitude} FT",
-              "voice": "indefinite ceiling {altitude} feet"
+              "voice": "vertical visibility {altitude} feet"
             },
             "NSC": {
               "text": "NSC",
@@ -4153,7 +4153,7 @@
             },
             "VV": {
               "text": "VV {altitude} FT",
-              "voice": "indefinite ceiling {altitude} feet"
+              "voice": "vertical visibility {altitude} feet"
             },
             "NSC": {
               "text": "NSC",
@@ -6502,7 +6502,7 @@
             },
             "VV": {
               "text": "VV {altitude} FT",
-              "voice": "indefinite ceiling {altitude} feet"
+              "voice": "vertical visibility {altitude} feet"
             },
             "NSC": {
               "text": "NSC",
@@ -8658,7 +8658,7 @@
             },
             "VV": {
               "text": "VV {altitude} FT {convective}",
-              "voice": "indefinite ceiling {altitude} feet {convective}"
+              "voice": "vertical visibility {altitude} feet"
             },
             "NSC": {
               "text": "NSC",
@@ -10816,7 +10816,7 @@
             },
             "VV": {
               "text": "VV {altitude} FT",
-              "voice": "indefinite ceiling {altitude} feet"
+              "voice": "vertical visibility {altitude} feet"
             },
             "NSC": {
               "text": "NSC",
@@ -12940,7 +12940,7 @@
             },
             "VV": {
               "text": "VV {altitude} FT",
-              "voice": "indefinite ceiling {altitude} feet"
+              "voice": "vertical visibility {altitude} feet"
             },
             "NSC": {
               "text": "NSC",
@@ -15054,7 +15054,7 @@
             },
             "VV": {
               "text": "VV {altitude} FT",
-              "voice": "indefinite ceiling {altitude} feet"
+              "voice": "vertical visibility {altitude} feet"
             },
             "NSC": {
               "text": "NSC",
@@ -17177,7 +17177,7 @@
             },
             "VV": {
               "text": "VV {altitude} FT",
-              "voice": "indefinite ceiling {altitude} feet"
+              "voice": "vertical visibility {altitude} feet"
             },
             "NSC": {
               "text": "NSC",
