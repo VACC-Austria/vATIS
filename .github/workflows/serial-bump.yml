@@ -20,8 +20,9 @@ jobs:
         with:
           python-version: "3.13"
 
-      - name: Run script
-        run: python .github/workflows/serial-bump.py
+      - name: Run Script
+        id: release_info
+        run: python .github/workflows/serial-bump.py >> $GITHUB_OUTPUT
 
       - name: Commit changes
         run: |
@@ -30,3 +31,23 @@ jobs:
           git add "vATIS Profile - LOVV.json"
           git commit -m "chore: bump serial number & profile name"
           git push
+
+      - name: Create Tag
+        run: |
+          git tag "${{ steps.release_info.outputs.serial }}"
+          git push origin "${{ steps.release_info.outputs.serial }}"
+
+      - name: Prepare Release Asset
+        run: cp "vATIS Profile - LOVV.json" vATIS.json
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          name: ${{ steps.release_info.outputs.profile_name }}
+          tag_name: ${{ steps.release_info.outputs.serial }}
+          generate_release_notes: true
+          files: vATIS.json
+          draft: false
+          prerelease: false

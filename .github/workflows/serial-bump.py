@@ -30,14 +30,19 @@ def main():
 
         # Update serial and profile name
         serial = bump_serial(now, serial)
+        profile_name = format_profile_name(now, serial)
+
         data["updateSerial"] = serial
-        data["name"] = format_profile_name(now, serial)
+        data["name"] = profile_name
 
         # Write the changes back to the file
         file.seek(0)
         json.dump(data, file, indent=2)
         file.truncate()
-
+        
+        # Export for use in later steps 
+        print(f"serial={serial}")
+        print(f"profile_name={profile_name}")
 
 if __name__ == "__main__":
     main()
