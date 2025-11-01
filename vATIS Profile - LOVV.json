@@ -15007,8 +15007,8 @@
             }
           },
           "template": {
-            "text": "WTH {weather}",
-            "voice": "WEATHER {weather}."
+            "text": "{weather}",
+            "voice": "{weather}."
           }
         },
         "recentWeather": {
