@@ -2274,8 +2274,8 @@
         },
         {
           "variableName": "LVP",
-          "text": "LOW VIS PROCEDURES IN OPS",
-          "voice": "LOW VISIBILITY PROCEDURES IN OPERATION"
+          "text": "LOW VIS PROC IN OP",
+          "voice": ".LOW VISIBILITY PROCEDURE IN OPERATION."
         },
         {
           "variableName": "COND",
@@ -4277,7 +4277,7 @@
         {
           "id": "d2317dd1-a31d-4aa6-8a2a-ae0cdc208f28",
           "ordinal": 1,
-          "name": "Config A - DEP: 11 ARR: 11",
+          "name": "ARR: 11",
           "airportConditions": "",
           "notams": "",
           "template": "@LOWW_ATIS [ATIS_CODE]\r\n[TIME] @START_OF_DATA\r\nARR RWY 11 ILS\r\n[TL]\r\n@WND_TDZ [WIND]\r\n[VIS] [RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[WS]\r\n[RECENT_WX]\r\n@AD_TREND [TREND]\r\n[ARPT_COND]\r\n[NOTAMS]\r\n@END_OF_DATA",
@@ -4286,23 +4286,23 @@
           }
         },
         {
-          "id": "5ac58186-ebb7-4aea-8201-72eab15cf8c0",
+          "id": "5ac88aa4-0dca-4348-80f5-479a32a13efa",
           "ordinal": 2,
-          "name": "Config B - DEP: 16 ARR: 16",
+          "name": "ARR: 11/16",
           "airportConditions": "",
           "notams": "",
-          "template": "@LOWW_ATIS [ATIS_CODE]\r\n[TIME] @START_OF_DATA\r\nARR RWY 16 ILS\r\n[TL]\r\n@WND_TDZ [WIND]\r\n[VIS] [RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[WS]\r\n[RECENT_WX]\r\n@AD_TREND [TREND]\r\n[ARPT_COND]\r\n[NOTAMS]\r\n@END_OF_DATA",
+          "template": "@LOWW_ATIS [ATIS_CODE]\r\n[TIME] @START_OF_DATA\r\nARR RWY 11 ILS AND RWY 16 ILS . SIM LANDINGS INPR. ACFT ON FINAL SHALL USE LDG LIGHTS\r\n[TL]\r\n@WND_TDZ [WIND]\r\n[VIS] [RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[WS]\r\n[RECENT_WX]\r\n@AD_TREND [TREND]\r\n[ARPT_COND]\r\n[NOTAMS]\r\n@END_OF_DATA",
           "externalGenerator": {
             "enabled": false
           }
         },
         {
-          "id": "fc2ad66e-3f6d-4c80-bde4-323333402bb5",
+          "id": "5ac58186-ebb7-4aea-8201-72eab15cf8c0",
           "ordinal": 3,
-          "name": "Config C - DEP: 29 ARR: 29",
+          "name": "ARR: 16",
           "airportConditions": "",
           "notams": "",
-          "template": "@LOWW_ATIS [ATIS_CODE]\r\n[TIME] @START_OF_DATA\r\nARR RWY 29 ILS *Z\r\n[TL]\r\n@WND_TDZ [WIND]\r\n[VIS] [RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[WS]\r\n[RECENT_WX]\r\n@AD_TREND [TREND]\r\n[ARPT_COND]\r\n[NOTAMS]\r\n@END_OF_DATA",
+          "template": "@LOWW_ATIS [ATIS_CODE]\r\n[TIME] @START_OF_DATA\r\nARR RWY 16 ILS\r\n[TL]\r\n@WND_TDZ [WIND]\r\n[VIS] [RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[WS]\r\n[RECENT_WX]\r\n@AD_TREND [TREND]\r\n[ARPT_COND]\r\n[NOTAMS]\r\n@END_OF_DATA",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4314,152 +4314,26 @@
           }
         },
         {
-          "id": "db8395b2-69f4-49c2-b93d-0682a4b736f5",
+          "id": "7b497331-76f7-4be1-a92d-4f2ccf23d168",
           "ordinal": 4,
-          "name": "Config D - DEP: 34 ARR: 34",
+          "name": "ARR: 16 - LVP",
           "airportConditions": "",
           "notams": "",
-          "template": "@LOWW_ATIS [ATIS_CODE]\r\n[TIME] @START_OF_DATA\r\nARR RWY 34 ILS\r\n[TL]\r\n@WND_TDZ [WIND]\r\n[VIS] [RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[WS]\r\n[RECENT_WX]\r\n@AD_TREND [TREND]\r\n[ARPT_COND]\r\n[NOTAMS]\r\n@END_OF_DATA",
+          "template": "@LOWW_ATIS [ATIS_CODE]\r\n[TIME] @START_OF_DATA\r\nARR RWY 16 ILS @LVP\r\n[TL]\r\n@WND_TDZ [WIND]\r\n[VIS] [RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[WS]\r\n[RECENT_WX]\r\n@AD_TREND [TREND]\r\n[ARPT_COND]\r\n[NOTAMS]\r\n@END_OF_DATA",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
-          "id": "8b45ffc0-1bd2-4aa2-812a-30405033c9fb",
+          "id": "fc2ad66e-3f6d-4c80-bde4-323333402bb5",
           "ordinal": 5,
-          "name": "Config E - DEP: 16 ARR: 11",
-          "airportConditions": "",
-          "notams": "",
-          "template": "@LOWW_ATIS [ATIS_CODE]\r\n[TIME] @START_OF_DATA\r\nARR RWY 11 ILS\r\n[TL]\r\n@WND_TDZ [WIND]\r\n[VIS] [RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[WS]\r\n[RECENT_WX]\r\n@AD_TREND [TREND]\r\n[ARPT_COND]\r\n[NOTAMS]\r\n@END_OF_DATA",
-          "externalGenerator": {
-            "enabled": false
-          }
-        },
-        {
-          "id": "5ac88aa4-0dca-4348-80f5-479a32a13efa",
-          "ordinal": 6,
-          "name": "Config E2 - DEP: 16 ARR: 11/16",
-          "airportConditions": "",
-          "notams": "",
-          "template": "@LOWW_ATIS [ATIS_CODE]\r\n[TIME] @START_OF_DATA\r\nARR RWY 11 ILS AND RWY 16 ILS . SIM LANDINGS INPR. ACFT ON FINAL SHALL USE LDG LIGHTS\r\n[TL]\r\n@WND_TDZ [WIND]\r\n[VIS] [RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[WS]\r\n[RECENT_WX]\r\n@AD_TREND [TREND]\r\n[ARPT_COND]\r\n[NOTAMS]\r\n@END_OF_DATA",
-          "externalGenerator": {
-            "enabled": false
-          }
-        },
-        {
-          "id": "f39b8465-6af4-4529-b953-58af0cb30b37",
-          "ordinal": 7,
-          "name": "Config F - DEP: 29 ARR: 16",
-          "airportConditions": "",
-          "notams": "",
-          "template": "@LOWW_ATIS [ATIS_CODE]\r\n[TIME] @START_OF_DATA\r\nARR RWY 16 ILS\r\n[TL]\r\n@WND_TDZ [WIND]\r\n[VIS] [RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[WS]\r\n[RECENT_WX]\r\n@AD_TREND [TREND]\r\n[ARPT_COND]\r\n[NOTAMS]\r\n@END_OF_DATA",
-          "externalGenerator": {
-            "enabled": false
-          }
-        },
-        {
-          "id": "6a49ba37-467c-41cf-80be-d1850c903728",
-          "ordinal": 8,
-          "name": "Config F1 - DEP: 29/16 ARR: 16 (Standard EuroScope)",
-          "airportConditions": "",
-          "notams": "",
-          "template": "@LOWW_ATIS [ATIS_CODE]\r\n[TIME] @START_OF_DATA\r\nARR RWY 16 ILS\r\n[TL]\r\n@WND_TDZ [WIND]\r\n[VIS] [RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[WS]\r\n[RECENT_WX]\r\n@AD_TREND [TREND]\r\n[ARPT_COND]\r\n[NOTAMS]\r\n@END_OF_DATA",
-          "externalGenerator": {
-            "enabled": false
-          }
-        },
-        {
-          "id": "c360af18-34ed-4510-bfea-4fbe14a1a4ce",
-          "ordinal": 9,
-          "name": "Config F2 - DEP: 29/16 ARR: 16",
-          "airportConditions": "",
-          "notams": "",
-          "template": "@LOWW_ATIS [ATIS_CODE]\r\n[TIME] @START_OF_DATA\r\nARR RWY 16 ILS\r\n[TL]\r\n@WND_TDZ [WIND]\r\n[VIS] [RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[WS]\r\n[RECENT_WX]\r\n@AD_TREND [TREND]\r\n[ARPT_COND]\r\n[NOTAMS]\r\n@END_OF_DATA",
-          "externalGenerator": {
-            "enabled": false
-          }
-        },
-        {
-          "id": "3dad2246-54fb-47c4-b71f-9986609d9ecd",
-          "ordinal": 10,
-          "name": "Config G - DEP: 29 ARR: 34",
-          "airportConditions": "",
-          "notams": "",
-          "template": "@LOWW_ATIS [ATIS_CODE]\r\n[TIME] @START_OF_DATA\r\nARR RWY 34 ILS\r\n[TL]\r\n@WND_TDZ [WIND]\r\n[VIS] [RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[WS]\r\n[RECENT_WX]\r\n@AD_TREND [TREND]\r\n[ARPT_COND]\r\n[NOTAMS]\r\n@END_OF_DATA",
-          "externalGenerator": {
-            "enabled": false
-          }
-        },
-        {
-          "id": "b87425ec-823b-4db5-b810-6da470c2c3ab",
-          "ordinal": 11,
-          "name": "Config G1 - DEP: 29/34 ARR: 34 (Standard EuroScope)",
-          "airportConditions": "",
-          "notams": "",
-          "template": "@LOWW_ATIS [ATIS_CODE]\r\n[TIME] @START_OF_DATA\r\nARR RWY 34 ILS\r\n[TL]\r\n@WND_TDZ [WIND]\r\n[VIS] [RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[WS]\r\n[RECENT_WX]\r\n@AD_TREND [TREND]\r\n[ARPT_COND]\r\n[NOTAMS]\r\n@END_OF_DATA",
-          "externalGenerator": {
-            "enabled": false
-          }
-        },
-        {
-          "id": "2d5fc282-1c2e-420b-97b5-1b6a2fcecfcb",
-          "ordinal": 12,
-          "name": "Config G2 - DEP: 29/34 ARR: 34",
-          "airportConditions": "",
-          "notams": "",
-          "template": "@LOWW_ATIS [ATIS_CODE]\r\n[TIME] @START_OF_DATA\r\nARR RWY 34 ILS\r\n[TL]\r\n@WND_TDZ [WIND]\r\n[VIS] [RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[WS]\r\n[RECENT_WX]\r\n@AD_TREND [TREND]\r\n[ARPT_COND]\r\n[NOTAMS]\r\n@END_OF_DATA",
-          "externalGenerator": {
-            "enabled": false
-          }
-        },
-        {
-          "id": "ac7404ab-23c6-42c6-a56a-fc4fc660726f",
-          "ordinal": 13,
-          "name": "Config G3 - DEP: 29/34 ARR: 34",
-          "airportConditions": "",
-          "notams": "",
-          "template": "@LOWW_ATIS [ATIS_CODE]\r\n[TIME] @START_OF_DATA\r\nARR RWY 34 ILS\r\n[TL]\r\n@WND_TDZ [WIND]\r\n[VIS] [RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[WS]\r\n[RECENT_WX]\r\n@AD_TREND [TREND]\r\n[ARPT_COND]\r\n[NOTAMS]\r\n@END_OF_DATA",
-          "externalGenerator": {
-            "enabled": false
-          }
-        },
-        {
-          "id": "5895de1f-3bc4-4038-b0ba-b391796c1c06",
-          "ordinal": 14,
-          "name": "Config G4 - DEP: 29/34 ARR: 34",
-          "airportConditions": "",
-          "notams": "",
-          "template": "@LOWW_ATIS [ATIS_CODE]\r\n[TIME] @START_OF_DATA\r\nARR RWY 34 ILS\r\n[TL]\r\n@WND_TDZ [WIND]\r\n[VIS] [RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[WS]\r\n[RECENT_WX]\r\n@AD_TREND [TREND]\r\n[ARPT_COND]\r\n[NOTAMS]\r\n@END_OF_DATA",
-          "externalGenerator": {
-            "enabled": false
-          }
-        },
-        {
-          "id": "e6478c84-83b3-4dc5-a2d5-cf59df0d8a7a",
-          "ordinal": 15,
-          "name": "Config NA - Night - DEP: 11 ARR: 11",
-          "airportConditions": "",
-          "notams": "",
-          "template": "@LOWW_ATIS [ATIS_CODE]\r\n[TIME] @START_OF_DATA\r\nARR RWY 11 ILS\r\n[TL]\r\n@WND_TDZ [WIND]\r\n[VIS] [RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[WS]\r\n[RECENT_WX]\r\n@AD_TREND [TREND]\r\n[ARPT_COND]\r\n[NOTAMS]\r\n@END_OF_DATA",
-          "externalGenerator": {
-            "enabled": false
-          }
-        },
-        {
-          "id": "3a221892-a3d1-4c55-b0aa-7ff71fdc4a29",
-          "ordinal": 16,
-          "name": "Config NB - Night - DEP: 16 ARR: 16",
-          "airportConditions": "",
-          "notams": "",
-          "template": "@LOWW_ATIS [ATIS_CODE]\r\n[TIME] @START_OF_DATA\r\nARR RWY 16 ILS\r\n[TL]\r\n@WND_TDZ [WIND]\r\n[VIS] [RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[WS]\r\n[RECENT_WX]\r\n@AD_TREND [TREND]\r\n[ARPT_COND]\r\n[NOTAMS]\r\n@END_OF_DATA",
-          "externalGenerator": {
-            "enabled": false
-          }
-        },
-        {
-          "id": "6ed3d1f1-2577-4213-94c9-0fe409060fdc",
-          "ordinal": 17,
-          "name": "Config NC - Night - DEP: 29 ARR: 29",
+          "name": "ARR: 29",
           "airportConditions": "",
           "notams": "",
           "template": "@LOWW_ATIS [ATIS_CODE]\r\n[TIME] @START_OF_DATA\r\nARR RWY 29 ILS *Z\r\n[TL]\r\n@WND_TDZ [WIND]\r\n[VIS] [RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[WS]\r\n[RECENT_WX]\r\n@AD_TREND [TREND]\r\n[ARPT_COND]\r\n[NOTAMS]\r\n@END_OF_DATA",
@@ -4475,8 +4349,8 @@
         },
         {
           "id": "dcec2f06-0eb5-4d59-bcc6-80a1ad3e66a8",
-          "ordinal": 17,
-          "name": "Config NC - Night - DEP: 29 ARR: 29 - with ILS U",
+          "ordinal": 6,
+          "name": "ARR: 29 - ILS U",
           "airportConditions": "",
           "notams": "",
           "template": "@LOWW_ATIS [ATIS_CODE]\r\n[TIME] @START_OF_DATA\r\nARR RWY 29 ILS *Z OR RNP TRANSITION TO ILS *U\r\n[TL]\r\n@WND_TDZ [WIND]\r\n[VIS] [RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[WS]\r\n[RECENT_WX]\r\n@AD_TREND [TREND]\r\n[ARPT_COND]\r\n[NOTAMS]\r\n@END_OF_DATA",
@@ -4491,9 +4365,26 @@
           }
         },
         {
-          "id": "d5fac80f-0f8d-4d17-ac03-1a9f61177dae",
-          "ordinal": 19,
-          "name": "Config ND - Night - DEP: 34 ARR: 34",
+          "id": "ba47be19-36cc-47e9-bc8d-8ff518bd3c01",
+          "ordinal": 6,
+          "name": "ARR: 29 - LVP",
+          "airportConditions": "",
+          "notams": "",
+          "template": "@LOWW_ATIS [ATIS_CODE]\r\n[TIME] @START_OF_DATA\r\nARR RWY 29 ILS *Z @LVP\r\n[TL]\r\n@WND_TDZ [WIND]\r\n[VIS] [RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[WS]\r\n[RECENT_WX]\r\n@AD_TREND [TREND]\r\n[ARPT_COND]\r\n[NOTAMS]\r\n@END_OF_DATA",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "db8395b2-69f4-49c2-b93d-0682a4b736f5",
+          "ordinal": 8,
+          "name": "ARR: 34",
           "airportConditions": "",
           "notams": "",
           "template": "@LOWW_ATIS [ATIS_CODE]\r\n[TIME] @START_OF_DATA\r\nARR RWY 34 ILS\r\n[TL]\r\n@WND_TDZ [WIND]\r\n[VIS] [RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[WS]\r\n[RECENT_WX]\r\n@AD_TREND [TREND]\r\n[ARPT_COND]\r\n[NOTAMS]\r\n@END_OF_DATA",
@@ -4502,36 +4393,20 @@
           }
         },
         {
-          "id": "6458a994-a9ac-4063-8e79-3a573194af59",
-          "ordinal": 20,
-          "name": "Config NE - Night - DEP: 11 ARR: 16",
-          "airportConditions": "",
-          "notams": "",
-          "template": "@LOWW_ATIS [ATIS_CODE]\r\n[TIME] @START_OF_DATA\r\nARR RWY 16 ILS\r\n[TL]\r\n@WND_TDZ [WIND]\r\n[VIS] [RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[WS]\r\n[RECENT_WX]\r\n@AD_TREND [TREND]\r\n[ARPT_COND]\r\n[NOTAMS]\r\n@END_OF_DATA",
-          "externalGenerator": {
-            "enabled": false
-          }
-        },
-        {
-          "id": "4b8b6f96-691e-48ef-a65e-eef97f94870f",
-          "ordinal": 21,
-          "name": "Config NF - Night - DEP: 29 ARR: 16",
-          "airportConditions": "",
-          "notams": "",
-          "template": "@LOWW_ATIS [ATIS_CODE]\r\n[TIME] @START_OF_DATA\r\nARR RWY 16 ILS\r\n[TL]\r\n@WND_TDZ [WIND]\r\n[VIS] [RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[WS]\r\n[RECENT_WX]\r\n@AD_TREND [TREND]\r\n[ARPT_COND]\r\n[NOTAMS]\r\n@END_OF_DATA",
-          "externalGenerator": {
-            "enabled": false
-          }
-        },
-        {
           "id": "8fa0939a-8794-479d-bfd6-c2cfb4c8a859",
-          "ordinal": 22,
-          "name": "Special - ARR RWY and APCH as ARPT COND",
+          "ordinal": 9,
+          "name": "SPECIAL - ARR RWY and APCH as ARPT COND",
           "airportConditions": "ARR RWY 16 RNP *Z",
           "notams": "ILS RWY 16 ON MAINTENANCE",
           "template": "@LOWW_ATIS [ATIS_CODE]\r\n[TIME] @START_OF_DATA\r\n[ARPT_COND]\r\n[TL]\r\n@WND_TDZ [WIND]\r\n[VIS] [RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[WS]\r\n[RECENT_WX]\r\n@AD_TREND [TREND]\r\n[NOTAMS]\r\n@END_OF_DATA",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         }
       ],
@@ -4618,8 +4493,8 @@
         },
         {
           "variableName": "LVP",
-          "text": "LOW VIS PROCEDURES IN OPS",
-          "voice": "LOW VISIBILITY PROCEDURES IN OPERATION"
+          "text": "LOW VIS PROC IN OP EXP LDG CLEARANCE LATEST AT 1NM FINAL",
+          "voice": ".LOW VISIBILITY PROCEDURE IN OPERATION. EXPECT LANDING CLEARANCE LATEST AT 1 NAUTICAL MILES FINAL."
         },
         {
           "variableName": "COND",
@@ -4661,23 +4536,13 @@
       ],
       "notamDefinitions": [
         {
-          "text": "@LVP",
+          "text": "RWY 11/29 CLSD",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "EXP LDG CLEARANCE LATEST AT 1 NM FINAL",
-          "ordinal": 2,
-          "enabled": false
-        },
-        {
-          "text": "RWY 11/29 CLSD",
-          "ordinal": 3,
-          "enabled": false
-        },
-        {
           "text": "RWY 16/34 CLSD",
-          "ordinal": 4,
+          "ordinal": 2,
           "enabled": false
         }
       ]
@@ -11046,8 +10911,8 @@
         },
         {
           "variableName": "LVP",
-          "text": "LOW VIS PROCEDURES IN OPS",
-          "voice": "LOW VISIBILITY PROCEDURES IN OPERATION"
+          "text": "LOW VIS PROC IN OP",
+          "voice": "LOW VISIBILITY PROCEDURE IN OPERATION."
         },
         {
           "variableName": "ACK_INFO",
@@ -17635,8 +17500,8 @@
         },
         {
           "variableName": "LVP",
-          "text": "LOW VIS PROCEDURES IN OPS",
-          "voice": "LOW VISIBILITY PROCEDURES IN OPERATION"
+          "text": "LOW VIS PROC IN OP EXP LDG CLEARANCE LATEST AT 1NM FINAL",
+          "voice": ".LOW VISIBILITY PROCEDURE IN OPERATION. EXPECT LANDING CLEARANCE LATEST AT 1 NAUTICAL MILES FINAL."
         },
         {
           "variableName": "COND",
