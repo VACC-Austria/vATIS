@@ -2292,6 +2292,11 @@
           "variableName": "AD_TREND",
           "text": "AD TREND",
           "voice": "AERODROME"
+        },
+        {
+          "variableName": "CDM",
+          "text": "REPORT TOBT AT VATS.IM/VDGS PRIOR TO CLRC REQ",
+          "voice": ".REPORT TARGET OFF BLOCK TIME AT VATS DOT IM SLASH VDGS PRIOR TO CLEARANCE REQUEST."
         }
       ],
       "airportConditionDefinitions": [
@@ -2328,13 +2333,18 @@
           "enabled": false
         },
         {
+          "text": "@CDM",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
           "text": "RWY 11/29 CLSD",
-          "ordinal": 2,
+          "ordinal": 3,
           "enabled": false
         },
         {
           "text": "RWY 16/34 CLSD",
-          "ordinal": 3,
+          "ordinal": 4,
           "enabled": false
         }
       ]
