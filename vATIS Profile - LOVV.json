@@ -1,8 +1,8 @@
 {
-  "name": "LOVV 13.11.2025 #1",
+  "name": "LOVV 03.01.2026 #1",
   "id": "e2612975-dc45-4b9a-ba59-94525bba097b",
   "updateUrl": "https://raw.githubusercontent.com/VACC-Austria/vATIS/refs/heads/main/vATIS%20Profile%20-%20LOVV.json",
-  "updateSerial": 2025111301,
+  "updateSerial": 2026010301,
   "stations": [
     {
       "id": "cfa29bf8-e74e-42e1-bf66-fe429f5a9a56",
