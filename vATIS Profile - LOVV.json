@@ -8825,6 +8825,11 @@
           "variableName": "AD_TREND",
           "text": "AD TREND",
           "voice": "AERODROME"
+        },
+        {
+          "variableName": "RTT",
+          "text": "RTT",
+          "voice": "RATTENBERG."
         }
       ],
       "airportConditionDefinitions": [
@@ -8856,23 +8861,28 @@
           "enabled": false
         },
         {
-          "text": "EXP APCH VIA ELMEM",
+          "text": "EXP APCH VIA RTT",
           "ordinal": 2,
           "enabled": false
         },
         {
-          "text": "@TRAS *L AND *C ACTIVE",
+          "text": "EXP APCH VIA ELMEM",
           "ordinal": 3,
           "enabled": false
         },
         {
-          "text": "@TRAS *L AND NORDPARK ACTIVE",
+          "text": "@TRAS *L AND *C ACTIVE",
           "ordinal": 4,
           "enabled": false
         },
         {
-          "text": "CAUTION MODEL AIRFIELDS ACTIVE WITHIN @CTR DURING DAYTIME AS PUBLISHED UP TO @150M @AGL",
+          "text": "@TRAS *L AND NORDPARK ACTIVE",
           "ordinal": 5,
+          "enabled": false
+        },
+        {
+          "text": "CAUTION MODEL AIRFIELDS ACTIVE WITHIN @CTR DURING DAYTIME AS PUBLISHED UP TO @150M @AGL",
+          "ordinal": 6,
           "enabled": false
         }
       ]
