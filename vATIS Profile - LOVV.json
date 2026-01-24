@@ -2296,7 +2296,7 @@
         {
           "variableName": "CDM",
           "text": "REPORT TOBT AT VATS.IM/VDGS PRIOR TO CLRC REQ",
-          "voice": ".REPORT TARGET OFF BLOCK TIME AT VATS DOT IM SLASH VDGS PRIOR TO CLEARANCE REQUEST."
+          "voice": "REPORT TARGET OFF BLOCK TIME AT VATS. DOT. IHM. SLASH. VDGS. PRIOR TO CLEARANCE REQUEST."
         }
       ],
       "airportConditionDefinitions": [
