@@ -2324,6 +2324,11 @@
           "text": "RWY COND REPORT. RWY COND CODES 5. 5. 5. FIRST PART *100 PERCENT, WET. SECOND PART *100 PERCENT, WET. THIRD PART *100 PERCENT, WET.",
           "ordinal": 5,
           "enabled": false
+        },
+        {
+          "text": "CHEMICALLY TREATED",
+          "ordinal": 6,
+          "enabled": false
         }
       ],
       "notamDefinitions": [
@@ -4548,6 +4553,11 @@
           "text": "RWY COND REPORT. RWY COND CODES 5. 5. 5. FIRST PART *100 PERCENT, WET. SECOND PART *100 PERCENT, WET. THIRD PART *100 PERCENT, WET.",
           "ordinal": 5,
           "enabled": false
+        },
+        {
+          "text": "CHEMICALLY TREATED",
+          "ordinal": 6,
+          "enabled": false
         }
       ],
       "notamDefinitions": [
@@ -6698,6 +6708,11 @@
         {
           "text": "RWY COND REPORT. RWY COND CODES 5. 5. 5. FIRST PART *100 PERCENT, WET. SECOND PART *100 PERCENT, WET. THIRD PART *100 PERCENT, WET.",
           "ordinal": 4,
+          "enabled": false
+        },
+        {
+          "text": "CHEMICALLY TREATED",
+          "ordinal": 5,
           "enabled": false
         }
       ],
@@ -8852,6 +8867,11 @@
           "text": "RWY COND REPORT. RWY COND CODES 5. 5. 5. FIRST PART *100 PERCENT, WET. SECOND PART *100 PERCENT, WET. THIRD PART *100 PERCENT, WET.",
           "ordinal": 4,
           "enabled": false
+        },
+        {
+          "text": "CHEMICALLY TREATED",
+          "ordinal": 5,
+          "enabled": false
         }
       ],
       "notamDefinitions": [
@@ -10986,6 +11006,11 @@
           "text": "RWY COND REPORT. RWY COND CODES 5. 5. 5. FIRST PART *100 PERCENT, WET. SECOND PART *100 PERCENT, WET. THIRD PART *100 PERCENT, WET.",
           "ordinal": 4,
           "enabled": false
+        },
+        {
+          "text": "CHEMICALLY TREATED",
+          "ordinal": 5,
+          "enabled": false
         }
       ],
       "notamDefinitions": [
@@ -13098,7 +13123,12 @@
         },
         {
           "text": "RWY COND REPORT. RWY COND CODES 5. 5. 5. FIRST PART *100 PERCENT, WET. SECOND PART *100 PERCENT, WET. THIRD PART *100 PERCENT, WET.",
-          "ordinal": 3,
+          "ordinal": 4,
+          "enabled": false
+        },
+        {
+          "text": "CHEMICALLY TREATED",
+          "ordinal": 5,
           "enabled": false
         }
       ],
@@ -15227,6 +15257,11 @@
         {
           "text": "RWY COND REPORT. RWY COND CODES 5. 5. 5. FIRST PART *100 PERCENT, WET. SECOND PART *100 PERCENT, WET. THIRD PART *100 PERCENT, WET.",
           "ordinal": 4,
+          "enabled": false
+        },
+        {
+          "text": "CHEMICALLY TREATED",
+          "ordinal": 5,
           "enabled": false
         }
       ],
@@ -17569,6 +17604,11 @@
         {
           "text": "RWY COND REPORT. RWY COND CODES 5. 5. 5. FIRST PART *100 PERCENT, WET. SECOND PART *100 PERCENT, WET. THIRD PART *100 PERCENT, WET.",
           "ordinal": 5,
+          "enabled": false
+        },
+        {
+          "text": "CHEMICALLY TREATED",
+          "ordinal": 6,
           "enabled": false
         }
       ],
