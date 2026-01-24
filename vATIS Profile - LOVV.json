@@ -2312,16 +2312,16 @@
         },
         {
           "text": "@WIND_SHEAR IN APCH AND IN CLIMB OUT",
-          "ordinal": 2,
+          "ordinal": 3,
           "enabled": false
         },
         {
-          "text": "RWY COND REPORT. RWY COND CODES 6. 6. 6. FIRST PART DRY. SECOND PART DRY. THIRD PART DRY",
+          "text": "RWY COND REPORT. RWY COND CODES 6. 6. 6. FIRST PART DRY. SECOND PART DRY. THIRD PART DRY.",
           "ordinal": 4,
           "enabled": false
         },
         {
-          "text": "RWY COND REPORT. RWY COND CODES 5. 5. 5. FIRST PART *100 PERCENT, WET. SECOND PART *100 PERCENT, WET. THIRD PART *100 PERCENT, WET",
+          "text": "RWY COND REPORT. RWY COND CODES 5. 5. 5. FIRST PART *100 PERCENT, WET. SECOND PART *100 PERCENT, WET. THIRD PART *100 PERCENT, WET.",
           "ordinal": 5,
           "enabled": false
         }
@@ -4540,12 +4540,12 @@
           "enabled": false
         },
         {
-          "text": "RWY COND REPORT. RWY COND CODES 6. 6. 6. FIRST PART DRY. SECOND PART DRY. THIRD PART DRY",
-          "ordinal": 3,
+          "text": "RWY COND REPORT. RWY COND CODES 6. 6. 6. FIRST PART DRY. SECOND PART DRY. THIRD PART DRY.",
+          "ordinal": 4,
           "enabled": false
         },
         {
-          "text": "RWY COND REPORT. RWY COND CODES 5. 5. 5. FIRST PART *100 PERCENT, WET. SECOND PART *100 PERCENT, WET. THIRD PART *100 PERCENT, WET",
+          "text": "RWY COND REPORT. RWY COND CODES 5. 5. 5. FIRST PART *100 PERCENT, WET. SECOND PART *100 PERCENT, WET. THIRD PART *100 PERCENT, WET.",
           "ordinal": 5,
           "enabled": false
         }
@@ -6691,12 +6691,12 @@
           "enabled": false
         },
         {
-          "text": "RWY COND REPORT. RWY COND CODES 6. 6. 6. FIRST PART DRY. SECOND PART DRY. THIRD PART DRY",
-          "ordinal": 2,
+          "text": "RWY COND REPORT. RWY COND CODES 6. 6. 6. FIRST PART DRY. SECOND PART DRY. THIRD PART DRY.",
+          "ordinal": 3,
           "enabled": false
         },
         {
-          "text": "RWY COND REPORT. RWY COND CODES 5. 5. 5. FIRST PART *100 PERCENT, WET. SECOND PART *100 PERCENT, WET. THIRD PART *100 PERCENT, WET",
+          "text": "RWY COND REPORT. RWY COND CODES 5. 5. 5. FIRST PART *100 PERCENT, WET. SECOND PART *100 PERCENT, WET. THIRD PART *100 PERCENT, WET.",
           "ordinal": 4,
           "enabled": false
         }
@@ -8835,7 +8835,7 @@
       "airportConditionDefinitions": [
         {
           "text": "MOD TURB IN APCH AND IN CLIMB OUT",
-          "ordinal": 0,
+          "ordinal": 1,
           "enabled": false
         },
         {
@@ -8844,12 +8844,12 @@
           "enabled": false
         },
         {
-          "text": "RWY COND REPORT. RWY COND CODES 6. 6. 6. FIRST PART DRY. SECOND PART DRY. THIRD PART DRY",
+          "text": "RWY COND REPORT. RWY COND CODES 6. 6. 6. FIRST PART DRY. SECOND PART DRY. THIRD PART DRY.",
           "ordinal": 3,
           "enabled": false
         },
         {
-          "text": "RWY COND REPORT. RWY COND CODES 5. 5. 5. FIRST PART *100 PERCENT, WET. SECOND PART *100 PERCENT, WET. THIRD PART *100 PERCENT, WET",
+          "text": "RWY COND REPORT. RWY COND CODES 5. 5. 5. FIRST PART *100 PERCENT, WET. SECOND PART *100 PERCENT, WET. THIRD PART *100 PERCENT, WET.",
           "ordinal": 4,
           "enabled": false
         }
@@ -10969,7 +10969,7 @@
       "airportConditionDefinitions": [
         {
           "text": "MOD TURB IN APCH AND IN CLIMB OUT",
-          "ordinal": 0,
+          "ordinal": 1,
           "enabled": false
         },
         {
@@ -10978,12 +10978,12 @@
           "enabled": false
         },
         {
-          "text": "RWY COND REPORT. RWY COND CODES 6. 6. 6. FIRST PART DRY. SECOND PART DRY. THIRD PART DRY",
+          "text": "RWY COND REPORT. RWY COND CODES 6. 6. 6. FIRST PART DRY. SECOND PART DRY. THIRD PART DRY.",
           "ordinal": 3,
           "enabled": false
         },
         {
-          "text": "RWY COND REPORT. RWY COND CODES 5. 5. 5. FIRST PART *100 PERCENT, WET. SECOND PART *100 PERCENT, WET. THIRD PART *100 PERCENT, WET",
+          "text": "RWY COND REPORT. RWY COND CODES 5. 5. 5. FIRST PART *100 PERCENT, WET. SECOND PART *100 PERCENT, WET. THIRD PART *100 PERCENT, WET.",
           "ordinal": 4,
           "enabled": false
         }
@@ -13083,7 +13083,7 @@
       "airportConditionDefinitions": [
         {
           "text": "MOD TURB IN APCH AND IN CLIMB OUT",
-          "ordinal": 0,
+          "ordinal": 1,
           "enabled": false
         },
         {
@@ -13092,13 +13092,13 @@
           "enabled": false
         },
         {
-          "text": "RWY COND REPORT. RWY COND CODES 5. 5. 5. FIRST PART *100 PERCENT, WET. SECOND PART *100 PERCENT, WET. THIRD PART *100 PERCENT, WET",
+          "text": "RWY COND REPORT. RWY COND CODES 6. 6. 6. FIRST PART DRY. SECOND PART DRY. THIRD PART DRY.",
           "ordinal": 3,
           "enabled": false
         },
         {
-          "text": "RWY COND REPORT. RWY COND CODES 6. 6. 6. FIRST PART DRY. SECOND PART DRY. THIRD PART DRY",
-          "ordinal": 4,
+          "text": "RWY COND REPORT. RWY COND CODES 5. 5. 5. FIRST PART *100 PERCENT, WET. SECOND PART *100 PERCENT, WET. THIRD PART *100 PERCENT, WET.",
+          "ordinal": 3,
           "enabled": false
         }
       ],
@@ -15220,12 +15220,12 @@
           "enabled": false
         },
         {
-          "text": "RWY COND REPORT. RWY COND CODES 6. 6. 6. FIRST PART DRY. SECOND PART DRY. THIRD PART DRY",
-          "ordinal": 2,
+          "text": "RWY COND REPORT. RWY COND CODES 6. 6. 6. FIRST PART DRY. SECOND PART DRY. THIRD PART DRY.",
+          "ordinal": 3,
           "enabled": false
         },
         {
-          "text": "RWY COND REPORT. RWY COND CODES 5. 5. 5. FIRST PART *100 PERCENT, WET. SECOND PART *100 PERCENT, WET. THIRD PART *100 PERCENT, WET",
+          "text": "RWY COND REPORT. RWY COND CODES 5. 5. 5. FIRST PART *100 PERCENT, WET. SECOND PART *100 PERCENT, WET. THIRD PART *100 PERCENT, WET.",
           "ordinal": 4,
           "enabled": false
         }
@@ -17562,12 +17562,12 @@
           "enabled": false
         },
         {
-          "text": "RWY COND REPORT. RWY COND CODES 6. 6. 6. FIRST PART DRY. SECOND PART DRY. THIRD PART DRY",
+          "text": "RWY COND REPORT. RWY COND CODES 6. 6. 6. FIRST PART DRY. SECOND PART DRY. THIRD PART DRY.",
           "ordinal": 4,
           "enabled": false
         },
         {
-          "text": "RWY COND REPORT. RWY COND CODES 5. 5. 5. FIRST PART *100 PERCENT, WET. SECOND PART *100 PERCENT, WET. THIRD PART *100 PERCENT, WET",
+          "text": "RWY COND REPORT. RWY COND CODES 5. 5. 5. FIRST PART *100 PERCENT, WET. SECOND PART *100 PERCENT, WET. THIRD PART *100 PERCENT, WET.",
           "ordinal": 5,
           "enabled": false
         }
