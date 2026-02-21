@@ -15272,13 +15272,18 @@
           "enabled": false
         },
         {
+          "text": "DELIVERY FREQ 121,750 OPEN",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
           "text": "GLIDERAREA GAISBERG ACTIVE",
-          "ordinal": 1,
+          "ordinal": 3,
           "enabled": false
         },
         {
           "text": "GLIDERAREA SCHWARZENBERG ACTIVE",
-          "ordinal": 3,
+          "ordinal": 4,
           "enabled": false
         }
       ]
