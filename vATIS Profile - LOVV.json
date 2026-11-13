@@ -140,17 +140,37 @@
           "formatRules": [
             {
               "fromMeters": 0,
-              "text": "{raw}",
+              "text": "{m}M",
               "voice": "{m} meters"
             },
             {
               "fromMeters": 5001,
-              "text": "{raw}",
-              "voice": "{km} kilometers"
+              "text": "5KM",
+              "voice": "5 kilometers"
+            },
+            {
+              "fromMeters": 6000,
+              "text": "6KM",
+              "voice": "6 kilometers"
+            },
+            {
+              "fromMeters": 7000,
+              "text": "7KM",
+              "voice": "7 kilometers"
+            },
+            {
+              "fromMeters": 8000,
+              "text": "8KM",
+              "voice": "8 kilometers"
+            },
+            {
+              "fromMeters": 9000,
+              "text": "9KM",
+              "voice": "9 kilometers"
             },
             {
               "fromMeters": 9999,
-              "text": "10K",
+              "text": "10KM",
               "voice": "10 kilometers or more"
             }
           ],
@@ -180,7 +200,7 @@
             "7/8SM": "seven eighths."
           },
           "template": {
-            "text": "VIS {visibility}M",
+            "text": "VIS {visibility}",
             "voice": "VISIBILITY {visibility}."
           }
         },
@@ -2893,17 +2913,37 @@
           "formatRules": [
             {
               "fromMeters": 0,
-              "text": "{raw}",
+              "text": "{m}M",
               "voice": "{m} meters"
             },
             {
               "fromMeters": 5001,
-              "text": "{raw}",
-              "voice": "{km} kilometers"
+              "text": "5KM",
+              "voice": "5 kilometers"
+            },
+            {
+              "fromMeters": 6000,
+              "text": "6KM",
+              "voice": "6 kilometers"
+            },
+            {
+              "fromMeters": 7000,
+              "text": "7KM",
+              "voice": "7 kilometers"
+            },
+            {
+              "fromMeters": 8000,
+              "text": "8KM",
+              "voice": "8 kilometers"
+            },
+            {
+              "fromMeters": 9000,
+              "text": "9KM",
+              "voice": "9 kilometers"
             },
             {
               "fromMeters": 9999,
-              "text": "10K",
+              "text": "10KM",
               "voice": "10 kilometers or more"
             }
           ],
@@ -2933,7 +2973,7 @@
             "7/8SM": "seven eighths."
           },
           "template": {
-            "text": "VIS {visibility}M",
+            "text": "VIS {visibility}",
             "voice": "VISIBILITY {visibility}."
           }
         },
@@ -5449,17 +5489,37 @@
           "formatRules": [
             {
               "fromMeters": 0,
-              "text": "{raw}",
+              "text": "{m}M",
               "voice": "{m} meters"
             },
             {
               "fromMeters": 5001,
-              "text": "{raw}",
-              "voice": "{km} kilometers"
+              "text": "5KM",
+              "voice": "5 kilometers"
+            },
+            {
+              "fromMeters": 6000,
+              "text": "6KM",
+              "voice": "6 kilometers"
+            },
+            {
+              "fromMeters": 7000,
+              "text": "7KM",
+              "voice": "7 kilometers"
+            },
+            {
+              "fromMeters": 8000,
+              "text": "8KM",
+              "voice": "8 kilometers"
+            },
+            {
+              "fromMeters": 9000,
+              "text": "9KM",
+              "voice": "9 kilometers"
             },
             {
               "fromMeters": 9999,
-              "text": "10K",
+              "text": "10KM",
               "voice": "10 kilometers or more"
             }
           ],
@@ -5489,7 +5549,7 @@
             "7/8SM": "seven eighths."
           },
           "template": {
-            "text": "VIS {visibility}M",
+            "text": "VIS {visibility}",
             "voice": "VISIBILITY {visibility}."
           }
         },
@@ -7930,17 +7990,37 @@
           "formatRules": [
             {
               "fromMeters": 0,
-              "text": "{raw}",
+              "text": "{m}M",
               "voice": "{m} meters"
             },
             {
               "fromMeters": 5001,
-              "text": "{raw}",
-              "voice": "{km} kilometers"
+              "text": "5KM",
+              "voice": "5 kilometers"
+            },
+            {
+              "fromMeters": 6000,
+              "text": "6KM",
+              "voice": "6 kilometers"
+            },
+            {
+              "fromMeters": 7000,
+              "text": "7KM",
+              "voice": "7 kilometers"
+            },
+            {
+              "fromMeters": 8000,
+              "text": "8KM",
+              "voice": "8 kilometers"
+            },
+            {
+              "fromMeters": 9000,
+              "text": "9KM",
+              "voice": "9 kilometers"
             },
             {
               "fromMeters": 9999,
-              "text": "10K",
+              "text": "10KM",
               "voice": "10 kilometers or more"
             }
           ],
@@ -7970,7 +8050,7 @@
             "7/8SM": "seven eighths."
           },
           "template": {
-            "text": "VIS {visibility}M",
+            "text": "VIS {visibility}",
             "voice": "VISIBILITY {visibility}."
           }
         },
@@ -10441,17 +10521,37 @@
           "formatRules": [
             {
               "fromMeters": 0,
-              "text": "{raw}",
+              "text": "{m}M",
               "voice": "{m} meters"
             },
             {
               "fromMeters": 5001,
-              "text": "{raw}",
-              "voice": "{km} kilometers"
+              "text": "5KM",
+              "voice": "5 kilometers"
+            },
+            {
+              "fromMeters": 6000,
+              "text": "6KM",
+              "voice": "6 kilometers"
+            },
+            {
+              "fromMeters": 7000,
+              "text": "7KM",
+              "voice": "7 kilometers"
+            },
+            {
+              "fromMeters": 8000,
+              "text": "8KM",
+              "voice": "8 kilometers"
+            },
+            {
+              "fromMeters": 9000,
+              "text": "9KM",
+              "voice": "9 kilometers"
             },
             {
               "fromMeters": 9999,
-              "text": "10K",
+              "text": "10KM",
               "voice": "10 kilometers or more"
             }
           ],
@@ -10481,7 +10581,7 @@
             "7/8SM": "seven eighths."
           },
           "template": {
-            "text": "VIS {visibility}M",
+            "text": "VIS {visibility}",
             "voice": "VISIBILITY {visibility}."
           }
         },
@@ -12902,17 +13002,37 @@
           "formatRules": [
             {
               "fromMeters": 0,
-              "text": "{raw}",
+              "text": "{m}M",
               "voice": "{m} meters"
             },
             {
               "fromMeters": 5001,
-              "text": "{raw}",
-              "voice": "{km} kilometers"
+              "text": "5KM",
+              "voice": "5 kilometers"
+            },
+            {
+              "fromMeters": 6000,
+              "text": "6KM",
+              "voice": "6 kilometers"
+            },
+            {
+              "fromMeters": 7000,
+              "text": "7KM",
+              "voice": "7 kilometers"
+            },
+            {
+              "fromMeters": 8000,
+              "text": "8KM",
+              "voice": "8 kilometers"
+            },
+            {
+              "fromMeters": 9000,
+              "text": "9KM",
+              "voice": "9 kilometers"
             },
             {
               "fromMeters": 9999,
-              "text": "10K",
+              "text": "10KM",
               "voice": "10 kilometers or more"
             }
           ],
@@ -12942,7 +13062,7 @@
             "7/8SM": "seven eighths."
           },
           "template": {
-            "text": "VIS {visibility}M",
+            "text": "VIS {visibility}",
             "voice": "VISIBILITY {visibility}."
           }
         },
@@ -15353,17 +15473,37 @@
           "formatRules": [
             {
               "fromMeters": 0,
-              "text": "{raw}",
+              "text": "{m}M",
               "voice": "{m} meters"
             },
             {
               "fromMeters": 5001,
-              "text": "{raw}",
-              "voice": "{km} kilometers"
+              "text": "5KM",
+              "voice": "5 kilometers"
+            },
+            {
+              "fromMeters": 6000,
+              "text": "6KM",
+              "voice": "6 kilometers"
+            },
+            {
+              "fromMeters": 7000,
+              "text": "7KM",
+              "voice": "7 kilometers"
+            },
+            {
+              "fromMeters": 8000,
+              "text": "8KM",
+              "voice": "8 kilometers"
+            },
+            {
+              "fromMeters": 9000,
+              "text": "9KM",
+              "voice": "9 kilometers"
             },
             {
               "fromMeters": 9999,
-              "text": "10K",
+              "text": "10KM",
               "voice": "10 kilometers or more"
             }
           ],
@@ -15393,7 +15533,7 @@
             "7/8SM": "seven eighths."
           },
           "template": {
-            "text": "VIS {visibility}M",
+            "text": "VIS {visibility}",
             "voice": "VISIBILITY {visibility}."
           }
         },
@@ -17824,17 +17964,37 @@
           "formatRules": [
             {
               "fromMeters": 0,
-              "text": "{raw}",
+              "text": "{m}M",
               "voice": "{m} meters"
             },
             {
               "fromMeters": 5001,
-              "text": "{raw}",
-              "voice": "{km} kilometers"
+              "text": "5KM",
+              "voice": "5 kilometers"
+            },
+            {
+              "fromMeters": 6000,
+              "text": "6KM",
+              "voice": "6 kilometers"
+            },
+            {
+              "fromMeters": 7000,
+              "text": "7KM",
+              "voice": "7 kilometers"
+            },
+            {
+              "fromMeters": 8000,
+              "text": "8KM",
+              "voice": "8 kilometers"
+            },
+            {
+              "fromMeters": 9000,
+              "text": "9KM",
+              "voice": "9 kilometers"
             },
             {
               "fromMeters": 9999,
-              "text": "10K",
+              "text": "10KM",
               "voice": "10 kilometers or more"
             }
           ],
@@ -17864,7 +18024,7 @@
             "7/8SM": "seven eighths."
           },
           "template": {
-            "text": "VIS {visibility}M",
+            "text": "VIS {visibility}",
             "voice": "VISIBILITY {visibility}."
           }
         },
