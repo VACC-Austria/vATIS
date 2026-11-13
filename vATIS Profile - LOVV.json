@@ -2003,7 +2003,7 @@
             }
           },
           "template": {
-            "text": "T {temp:#}",
+            "text": "T {temp:#-}",
             "voice": "TEMPERATURE {temp}."
           }
         },
@@ -2021,7 +2021,7 @@
             }
           },
           "template": {
-            "text": "DP {dewpoint:#}",
+            "text": "DP {dewpoint:#-}",
             "voice": "DEW POINT {dewpoint}."
           }
         },
@@ -4745,7 +4745,7 @@
             }
           },
           "template": {
-            "text": "T {temp:#}",
+            "text": "T {temp:#-}",
             "voice": "TEMPERATURE {temp}."
           }
         },
@@ -4763,7 +4763,7 @@
             }
           },
           "template": {
-            "text": "DP {dewpoint:#}",
+            "text": "DP {dewpoint:#-}",
             "voice": "DEW POINT {dewpoint}."
           }
         },
@@ -7290,7 +7290,7 @@
             }
           },
           "template": {
-            "text": "T {temp:#}",
+            "text": "T {temp:#-}",
             "voice": "TEMPERATURE {temp}."
           }
         },
@@ -7308,7 +7308,7 @@
             }
           },
           "template": {
-            "text": "DP {dewpoint:#}",
+            "text": "DP {dewpoint:#-}",
             "voice": "DEW POINT {dewpoint}."
           }
         },
@@ -9765,7 +9765,7 @@
             }
           },
           "template": {
-            "text": "T {temp:#}",
+            "text": "T {temp:#-}",
             "voice": "TEMPERATURE {temp}."
           }
         },
@@ -9783,7 +9783,7 @@
             }
           },
           "template": {
-            "text": "DP {dewpoint:#}",
+            "text": "DP {dewpoint:#-}",
             "voice": "DEW POINT {dewpoint}."
           }
         },
@@ -12270,7 +12270,7 @@
             }
           },
           "template": {
-            "text": "T {temp:#}",
+            "text": "T {temp:#-}",
             "voice": "TEMPERATURE {temp}."
           }
         },
@@ -12288,7 +12288,7 @@
             }
           },
           "template": {
-            "text": "DP {dewpoint:#}",
+            "text": "DP {dewpoint:#-}",
             "voice": "DEW POINT {dewpoint}."
           }
         },
@@ -14725,7 +14725,7 @@
             }
           },
           "template": {
-            "text": "T {temp:#}",
+            "text": "T {temp:#-}",
             "voice": "TEMPERATURE {temp}."
           }
         },
@@ -14743,7 +14743,7 @@
             }
           },
           "template": {
-            "text": "DP {dewpoint:#}",
+            "text": "DP {dewpoint:#-}",
             "voice": "DEW POINT {dewpoint}."
           }
         },
@@ -17170,7 +17170,7 @@
             }
           },
           "template": {
-            "text": "T {temp:#}",
+            "text": "T {temp:#-}",
             "voice": "TEMPERATURE {temp}."
           }
         },
@@ -17188,7 +17188,7 @@
             }
           },
           "template": {
-            "text": "DP {dewpoint:#}",
+            "text": "DP {dewpoint:#-}",
             "voice": "DEW POINT {dewpoint}."
           }
         },
@@ -19635,7 +19635,7 @@
             }
           },
           "template": {
-            "text": "T {temp:#}",
+            "text": "T {temp:#-}",
             "voice": "TEMPERATURE {temp}."
           }
         },
@@ -19653,7 +19653,7 @@
             }
           },
           "template": {
-            "text": "DP {dewpoint:#}",
+            "text": "DP {dewpoint:#-}",
             "voice": "DEW POINT {dewpoint}."
           }
         },
