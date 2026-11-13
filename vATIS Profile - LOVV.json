@@ -30,25 +30,25 @@
           },
           "standard": {
             "template": {
-              "text": "WND TDZ {wind_dir} DEG {wind_spd} KT",
+              "text": "WND TDZ {wind_dir} DEG {wind_spd:#} KT",
               "voice": "WIND TOUCH DOWN ZONE {wind_dir} DEGREES {wind_spd} {wind_unit}"
             }
           },
           "standardGust": {
             "template": {
-              "text": "WND TDZ {wind_dir} DEG {wind_spd} KT MAX {wind_gust} KT",
+              "text": "WND TDZ {wind_dir} DEG {wind_spd:#} KT MAX {wind_gust:#} KT",
               "voice": "WIND TOUCH DOWN ZONE {wind_dir} DEGREES {wind_spd} {wind_unit}. MAXIMUM {wind_gust} {wind_unit}"
             }
           },
           "variable": {
             "template": {
-              "text": "WND TDZ VRB {wind_spd} KT",
+              "text": "WND TDZ VRB {wind_spd:#} KT",
               "voice": "WIND TOUCH DOWN ZONE VARIABLE {wind_spd} {wind_unit}"
             }
           },
           "variableGust": {
             "template": {
-              "text": "WND TDZ VRB {wind_spd} KT MAX {wind_gust} KT",
+              "text": "WND TDZ VRB {wind_spd:#} KT MAX {wind_gust:#} KT",
               "voice": "WIND TOUCH DOWN ZONE VARIABLE {wind_spd} {wind_unit}. MAXIMUM {wind_gust} {wind_unit}"
             }
           },
@@ -61,7 +61,7 @@
           "calm": {
             "calmWindSpeed": 2,
             "template": {
-              "text": "WND TDZ {wind_dir} DEG {wind_spd} KT",
+              "text": "WND TDZ {wind_dir} DEG {wind_spd:#} KT",
               "voice": "WIND TOUCH DOWN ZONE {wind_dir} DEGREES {wind_spd} {wind_unit}"
             }
           },
@@ -2783,25 +2783,25 @@
           },
           "standard": {
             "template": {
-              "text": "WND TDZ {wind_dir} DEG {wind_spd} KT",
+              "text": "WND TDZ {wind_dir} DEG {wind_spd:#} KT",
               "voice": "WIND TOUCH DOWN ZONE {wind_dir} DEGREES {wind_spd} {wind_unit}"
             }
           },
           "standardGust": {
             "template": {
-              "text": "WND TDZ {wind_dir} DEG {wind_spd} KT MAX {wind_gust} KT",
+              "text": "WND TDZ {wind_dir} DEG {wind_spd:#} KT MAX {wind_gust:#} KT",
               "voice": "WIND TOUCH DOWN ZONE {wind_dir} DEGREES {wind_spd} {wind_unit}. MAXIMUM {wind_gust} {wind_unit}"
             }
           },
           "variable": {
             "template": {
-              "text": "WND TDZ VRB {wind_spd} KT",
+              "text": "WND TDZ VRB {wind_spd:#} KT",
               "voice": "WIND TOUCH DOWN ZONE VARIABLE {wind_spd} {wind_unit}"
             }
           },
           "variableGust": {
             "template": {
-              "text": "WND TDZ VRB {wind_spd} KT MAX {wind_gust} KT",
+              "text": "WND TDZ VRB {wind_spd:#} KT MAX {wind_gust:#} KT",
               "voice": "WIND TOUCH DOWN ZONE VARIABLE {wind_spd} {wind_unit}. MAXIMUM {wind_gust} {wind_unit}"
             }
           },
@@ -2814,7 +2814,7 @@
           "calm": {
             "calmWindSpeed": 2,
             "template": {
-              "text": "WND TDZ {wind_dir} DEG {wind_spd} KT",
+              "text": "WND TDZ {wind_dir} DEG {wind_spd:#} KT",
               "voice": "WIND TOUCH DOWN ZONE {wind_dir} DEGREES {wind_spd} {wind_unit}"
             }
           },
@@ -5339,25 +5339,25 @@
           },
           "standard": {
             "template": {
-              "text": "WND TDZ {wind_dir} DEG {wind_spd} KT",
+              "text": "WND TDZ {wind_dir} DEG {wind_spd:#} KT",
               "voice": "WIND TOUCH DOWN ZONE {wind_dir} DEGREES {wind_spd} {wind_unit}"
             }
           },
           "standardGust": {
             "template": {
-              "text": "WND TDZ {wind_dir} DEG {wind_spd} KT MAX {wind_gust} KT",
+              "text": "WND TDZ {wind_dir} DEG {wind_spd:#} KT MAX {wind_gust:#} KT",
               "voice": "WIND TOUCH DOWN ZONE {wind_dir} DEGREES {wind_spd} {wind_unit}. MAXIMUM {wind_gust} {wind_unit}"
             }
           },
           "variable": {
             "template": {
-              "text": "WND TDZ VRB {wind_spd} KT",
+              "text": "WND TDZ VRB {wind_spd:#} KT",
               "voice": "WIND TOUCH DOWN ZONE VARIABLE {wind_spd} {wind_unit}"
             }
           },
           "variableGust": {
             "template": {
-              "text": "WND TDZ VRB {wind_spd} KT MAX {wind_gust} KT",
+              "text": "WND TDZ VRB {wind_spd:#} KT MAX {wind_gust:#} KT",
               "voice": "WIND TOUCH DOWN ZONE VARIABLE {wind_spd} {wind_unit}. MAXIMUM {wind_gust} {wind_unit}"
             }
           },
@@ -5370,7 +5370,7 @@
           "calm": {
             "calmWindSpeed": 2,
             "template": {
-              "text": "WND TDZ {wind_dir} DEG {wind_spd} KT",
+              "text": "WND TDZ {wind_dir} DEG {wind_spd:#} KT",
               "voice": "WIND TOUCH DOWN ZONE {wind_dir} DEGREES {wind_spd} {wind_unit}"
             }
           },
@@ -7820,25 +7820,25 @@
           },
           "standard": {
             "template": {
-              "text": "WND TDZ {wind_dir} DEG {wind_spd} KT",
+              "text": "WND TDZ {wind_dir} DEG {wind_spd:#} KT",
               "voice": "WIND TOUCH DOWN ZONE {wind_dir} DEGREES {wind_spd} {wind_unit}"
             }
           },
           "standardGust": {
             "template": {
-              "text": "WND TDZ {wind_dir} DEG {wind_spd} KT MAX {wind_gust} KT",
+              "text": "WND TDZ {wind_dir} DEG {wind_spd:#} KT MAX {wind_gust:#} KT",
               "voice": "WIND TOUCH DOWN ZONE {wind_dir} DEGREES {wind_spd} {wind_unit}. MAXIMUM {wind_gust} {wind_unit}"
             }
           },
           "variable": {
             "template": {
-              "text": "WND TDZ VRB {wind_spd} KT",
+              "text": "WND TDZ VRB {wind_spd:#} KT",
               "voice": "WIND TOUCH DOWN ZONE VARIABLE {wind_spd} {wind_unit}"
             }
           },
           "variableGust": {
             "template": {
-              "text": "WND TDZ VRB {wind_spd} KT MAX {wind_gust} KT",
+              "text": "WND TDZ VRB {wind_spd:#} KT MAX {wind_gust:#} KT",
               "voice": "WIND TOUCH DOWN ZONE VARIABLE {wind_spd} {wind_unit}. MAXIMUM {wind_gust} {wind_unit}"
             }
           },
@@ -7851,7 +7851,7 @@
           "calm": {
             "calmWindSpeed": 2,
             "template": {
-              "text": "WND TDZ {wind_dir} DEG {wind_spd} KT",
+              "text": "WND TDZ {wind_dir} DEG {wind_spd:#} KT",
               "voice": "WIND TOUCH DOWN ZONE {wind_dir} DEGREES {wind_spd} {wind_unit}"
             }
           },
@@ -10331,25 +10331,25 @@
           },
           "standard": {
             "template": {
-              "text": "WND TDZ {wind_dir} DEG {wind_spd} KT",
+              "text": "WND TDZ {wind_dir} DEG {wind_spd:#} KT",
               "voice": "WIND TOUCH DOWN ZONE {wind_dir} DEGREES {wind_spd} {wind_unit}"
             }
           },
           "standardGust": {
             "template": {
-              "text": "WND TDZ {wind_dir} DEG {wind_spd} KT MAX {wind_gust} KT",
+              "text": "WND TDZ {wind_dir} DEG {wind_spd:#} KT MAX {wind_gust:#} KT",
               "voice": "WIND TOUCH DOWN ZONE {wind_dir} DEGREES {wind_spd} {wind_unit}. MAXIMUM {wind_gust} {wind_unit}"
             }
           },
           "variable": {
             "template": {
-              "text": "WND TDZ VRB {wind_spd} KT",
+              "text": "WND TDZ VRB {wind_spd:#} KT",
               "voice": "WIND TOUCH DOWN ZONE VARIABLE {wind_spd} {wind_unit}"
             }
           },
           "variableGust": {
             "template": {
-              "text": "WND TDZ VRB {wind_spd} KT MAX {wind_gust} KT",
+              "text": "WND TDZ VRB {wind_spd:#} KT MAX {wind_gust:#} KT",
               "voice": "WIND TOUCH DOWN ZONE VARIABLE {wind_spd} {wind_unit}. MAXIMUM {wind_gust} {wind_unit}"
             }
           },
@@ -10362,7 +10362,7 @@
           "calm": {
             "calmWindSpeed": 2,
             "template": {
-              "text": "WND TDZ {wind_dir} DEG {wind_spd} KT",
+              "text": "WND TDZ {wind_dir} DEG {wind_spd:#} KT",
               "voice": "WIND TOUCH DOWN ZONE {wind_dir} DEGREES {wind_spd} {wind_unit}"
             }
           },
@@ -12792,25 +12792,25 @@
           },
           "standard": {
             "template": {
-              "text": "WND TDZ {wind_dir} DEG {wind_spd} KT",
+              "text": "WND TDZ {wind_dir} DEG {wind_spd:#} KT",
               "voice": "WIND TOUCH DOWN ZONE {wind_dir} DEGREES {wind_spd} {wind_unit}"
             }
           },
           "standardGust": {
             "template": {
-              "text": "WND TDZ {wind_dir} DEG {wind_spd} KT MAX {wind_gust} KT",
+              "text": "WND TDZ {wind_dir} DEG {wind_spd:#} KT MAX {wind_gust:#} KT",
               "voice": "WIND TOUCH DOWN ZONE {wind_dir} DEGREES {wind_spd} {wind_unit}. MAXIMUM {wind_gust} {wind_unit}"
             }
           },
           "variable": {
             "template": {
-              "text": "WND TDZ VRB {wind_spd} KT",
+              "text": "WND TDZ VRB {wind_spd:#} KT",
               "voice": "WIND TOUCH DOWN ZONE VARIABLE {wind_spd} {wind_unit}"
             }
           },
           "variableGust": {
             "template": {
-              "text": "WND TDZ VRB {wind_spd} KT MAX {wind_gust} KT",
+              "text": "WND TDZ VRB {wind_spd:#} KT MAX {wind_gust:#} KT",
               "voice": "WIND TOUCH DOWN ZONE VARIABLE {wind_spd} {wind_unit}. MAXIMUM {wind_gust} {wind_unit}"
             }
           },
@@ -12823,7 +12823,7 @@
           "calm": {
             "calmWindSpeed": 2,
             "template": {
-              "text": "WND TDZ {wind_dir} DEG {wind_spd} KT",
+              "text": "WND TDZ {wind_dir} DEG {wind_spd:#} KT",
               "voice": "WIND TOUCH DOWN ZONE {wind_dir} DEGREES {wind_spd} {wind_unit}"
             }
           },
@@ -15243,25 +15243,25 @@
           },
           "standard": {
             "template": {
-              "text": "WND TDZ {wind_dir} DEG {wind_spd} KT",
+              "text": "WND TDZ {wind_dir} DEG {wind_spd:#} KT",
               "voice": "WIND TOUCH DOWN ZONE {wind_dir} DEGREES {wind_spd} {wind_unit}"
             }
           },
           "standardGust": {
             "template": {
-              "text": "WND TDZ {wind_dir} DEG {wind_spd} KT MAX {wind_gust} KT",
+              "text": "WND TDZ {wind_dir} DEG {wind_spd:#} KT MAX {wind_gust:#} KT",
               "voice": "WIND TOUCH DOWN ZONE {wind_dir} DEGREES {wind_spd} {wind_unit}. MAXIMUM {wind_gust} {wind_unit}"
             }
           },
           "variable": {
             "template": {
-              "text": "WND TDZ VRB {wind_spd} KT",
+              "text": "WND TDZ VRB {wind_spd:#} KT",
               "voice": "WIND TOUCH DOWN ZONE VARIABLE {wind_spd} {wind_unit}"
             }
           },
           "variableGust": {
             "template": {
-              "text": "WND TDZ VRB {wind_spd} KT MAX {wind_gust} KT",
+              "text": "WND TDZ VRB {wind_spd:#} KT MAX {wind_gust:#} KT",
               "voice": "WIND TOUCH DOWN ZONE VARIABLE {wind_spd} {wind_unit}. MAXIMUM {wind_gust} {wind_unit}"
             }
           },
@@ -15274,7 +15274,7 @@
           "calm": {
             "calmWindSpeed": 2,
             "template": {
-              "text": "WND TDZ {wind_dir} DEG {wind_spd} KT",
+              "text": "WND TDZ {wind_dir} DEG {wind_spd:#} KT",
               "voice": "WIND TOUCH DOWN ZONE {wind_dir} DEGREES {wind_spd} {wind_unit}"
             }
           },
@@ -17714,25 +17714,25 @@
           },
           "standard": {
             "template": {
-              "text": "WND TDZ {wind_dir} DEG {wind_spd} KT",
+              "text": "WND TDZ {wind_dir} DEG {wind_spd:#} KT",
               "voice": "WIND TOUCH DOWN ZONE {wind_dir} DEGREES {wind_spd} {wind_unit}"
             }
           },
           "standardGust": {
             "template": {
-              "text": "WND TDZ {wind_dir} DEG {wind_spd} KT MAX {wind_gust} KT",
+              "text": "WND TDZ {wind_dir} DEG {wind_spd:#} KT MAX {wind_gust:#} KT",
               "voice": "WIND TOUCH DOWN ZONE {wind_dir} DEGREES {wind_spd} {wind_unit}. MAXIMUM {wind_gust} {wind_unit}"
             }
           },
           "variable": {
             "template": {
-              "text": "WND TDZ VRB {wind_spd} KT",
+              "text": "WND TDZ VRB {wind_spd:#} KT",
               "voice": "WIND TOUCH DOWN ZONE VARIABLE {wind_spd} {wind_unit}"
             }
           },
           "variableGust": {
             "template": {
-              "text": "WND TDZ VRB {wind_spd} KT MAX {wind_gust} KT",
+              "text": "WND TDZ VRB {wind_spd:#} KT MAX {wind_gust:#} KT",
               "voice": "WIND TOUCH DOWN ZONE VARIABLE {wind_spd} {wind_unit}. MAXIMUM {wind_gust} {wind_unit}"
             }
           },
@@ -17745,7 +17745,7 @@
           "calm": {
             "calmWindSpeed": 2,
             "template": {
-              "text": "WND TDZ {wind_dir} DEG {wind_spd} KT",
+              "text": "WND TDZ {wind_dir} DEG {wind_spd:#} KT",
               "voice": "WIND TOUCH DOWN ZONE {wind_dir} DEGREES {wind_spd} {wind_unit}"
             }
           },
