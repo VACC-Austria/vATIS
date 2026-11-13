@@ -17667,7 +17667,7 @@
           "name": "RWY 33",
           "airportConditions": "",
           "notams": "",
-          "template": "@LOWS_ATIS [ATIS_CODE]\r\n[TIME] @START_OF_DATA\r\nRWY IN USE 33\r\n[TL]\r\n[WIND]\r\n[VIS] [RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[AUTO]\r\n[WS]\r\n[RECENT_WX]\r\n[TREND]\r\n[ARPT_COND]\r\nIFR ARR EXP RNP APCH\r\nRWY 33\r\n[NOTAMS]\r\n@ACK_INFO\r\n@END_OF_DATA",
+          "template": "@LOWS_ATIS [ATIS_CODE]\r\n[TIME] @START_OF_DATA\r\nRWY IN USE 33\r\n[TL]\r\n[WIND]\r\n[VIS] [RVR]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW] [PRESSURE]\r\n[AUTO]\r\n[WS]\r\n[RECENT_WX]\r\n[TREND]\r\n[ARPT_COND]\r\nIFR ARR EXP RNP APCH RWY 33\r\n[NOTAMS]\r\n@ACK_INFO\r\n@END_OF_DATA",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
